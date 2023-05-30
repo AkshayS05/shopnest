@@ -5,6 +5,8 @@ import { AppComponent } from './app.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { NavbarComponent } from './components/banner/shared/navbar/navbar.component';
 import { FooterComponent } from './components/banner/shared/footer/footer.component';
+import { FormsModule } from '@angular/forms';
+import { CardComponent } from './components/card/card.component';
 
 @NgModule({
   declarations: [
@@ -12,10 +14,12 @@ import { FooterComponent } from './components/banner/shared/footer/footer.compon
     BannerComponent,
     NavbarComponent,
     FooterComponent,
+    CardComponent,
 
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
