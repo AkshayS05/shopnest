@@ -7,6 +7,7 @@ import { NavbarComponent } from './components/banner/shared/navbar/navbar.compon
 import { FooterComponent } from './components/banner/shared/footer/footer.component';
 import { FormsModule } from '@angular/forms';
 import { CardComponent } from './components/card/card.component';
+import { StockPipe } from './pipes/stock.pipe';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { CardComponent } from './components/card/card.component';
     NavbarComponent,
     FooterComponent,
     CardComponent,
+    StockPipe,
 
   ],
   imports: [

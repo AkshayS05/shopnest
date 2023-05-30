@@ -12,6 +12,11 @@ export class CardComponent {
 // to get out the data from the component
 @Output() onCardSelect= new EventEmitter<Card>();
 
+//if item is out of stock, disable that button of add to card
+get isDisabled(){
+  return this.card.stock === 0;
+}
+
 handleClick(){
 
   this.onCardSelect.emit(this.card);

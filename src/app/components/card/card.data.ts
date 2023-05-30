@@ -8,7 +8,7 @@ export const cardData: Card[] = [
     subHeader: 'An apple mobile which is nothing like apple',
     price: 549,
     rating: 4.5,
-    stock: 94,
+    stock: 0,
     brand: 'Apple',
     category: 'Smartphones',
     thumbnail: "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
@@ -41,7 +41,7 @@ export const cardData: Card[] = [
     subHeader: 'OPPO F19 is officially announced on April 2021',
     price: 280,
     rating: 4,
-    stock: 123,
+    stock: 8,
     brand: 'Oppo',
     category: 'Smartphones',
     thumbnail: "https://i.dummyjson.com/data/products/4/thumbnail.jpg"
