@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { cardData } from './components/card/card.data';
+import { Card } from './model/card.model';
 
 //to create angular component and not a es6 class
 @Component({
@@ -8,4 +10,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'shopnest_app';
+  cards: Card[]= cardData;
 }
