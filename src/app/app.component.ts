@@ -11,4 +11,12 @@ import { Card } from './model/card.model';
 export class AppComponent {
   title = 'shopnest_app';
   cards: Card[]= cardData;
+
+currentSelectedCard! : Card;
+
+  handleCardSelect(card: Card) {
+
+    this.currentSelectedCard=card;
+    console.log(card);
+  }
 }
