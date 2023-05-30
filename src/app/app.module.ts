@@ -8,6 +8,7 @@ import { FooterComponent } from './components/banner/shared/footer/footer.compon
 import { FormsModule } from '@angular/forms';
 import { CardComponent } from './components/card/card.component';
 import { StockPipe } from './pipes/stock.pipe';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { StockPipe } from './pipes/stock.pipe';
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
