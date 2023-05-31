@@ -17,6 +17,6 @@ currentSelectedCard! : Card;
   handleCardSelect(card: Card) {
 
     this.currentSelectedCard=card;
-    console.log(card);
+  
   }
 }

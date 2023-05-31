@@ -23,7 +23,6 @@ get isDisabled(){
 }
 
 handleClick(){
-
   this.onCardSelect.emit(this.card);
 }
 }
