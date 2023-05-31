@@ -10,6 +10,7 @@ import { CardComponent } from './components/card/card.component';
 import { StockPipe } from './pipes/stock.pipe';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { RatingComponent } from './components/rating/rating.component';
+import { ProductService } from './product.service';
 
 @NgModule({
   declarations: [
