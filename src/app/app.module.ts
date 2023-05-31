@@ -9,6 +9,7 @@ import { FormsModule } from '@angular/forms';
 import { CardComponent } from './components/card/card.component';
 import { StockPipe } from './pipes/stock.pipe';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { RatingComponent } from './components/rating/rating.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     FooterComponent,
     CardComponent,
     StockPipe,
+    RatingComponent,
 
   ],
   imports: [
